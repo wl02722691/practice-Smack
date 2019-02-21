@@ -38,7 +38,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LAS-8M-rez">
-                                <rect key="frame" x="0.0" y="20" width="375" height="77"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="77"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5A-aK-5pN">
                                         <rect key="frame" x="12" y="47" width="24" height="18"/>
@@ -55,7 +55,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.93611431119999999" green="0.60771936179999997" blue="0.21552452450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.87135124206542969" green="0.50143402814865112" blue="0.55293625593185425" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="P5A-aK-5pN" firstAttribute="leading" secondItem="LAS-8M-rez" secondAttribute="leading" constant="12" id="6Dt-m8-65G"/>
                                     <constraint firstItem="tDL-OV-B6r" firstAttribute="centerY" secondItem="P5A-aK-5pN" secondAttribute="centerY" id="Eeb-x7-ipf"/>
@@ -69,7 +69,7 @@
                         <constraints>
                             <constraint firstItem="LAS-8M-rez" firstAttribute="leading" secondItem="zCC-5Q-4wt" secondAttribute="leading" id="CsP-YL-fPB"/>
                             <constraint firstItem="zCC-5Q-4wt" firstAttribute="trailing" secondItem="LAS-8M-rez" secondAttribute="trailing" id="XT8-co-aXV"/>
-                            <constraint firstItem="LAS-8M-rez" firstAttribute="top" secondItem="zCC-5Q-4wt" secondAttribute="top" id="xAO-y2-dmF"/>
+                            <constraint firstItem="LAS-8M-rez" firstAttribute="top" secondItem="zCC-5Q-4wt" secondAttribute="top" constant="-20" id="xAO-y2-dmF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zCC-5Q-4wt"/>
                     </view>
@@ -79,13 +79,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YFg-Ga-jbc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1041" y="-15"/>
+            <point key="canvasLocation" x="1156" y="815"/>
         </scene>
         <!--ChannelVC-->
         <scene sceneID="nZp-Ax-Fvm">
             <objects>
                 <viewController id="zeb-Rf-2Eo" customClass="ChannelVC" customModule="smack" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="XVu-ma-tyX">
+                    <view key="view" contentMode="scaleToFill" id="XVu-ma-tyX" customClass="GradientView" customModule="smack" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -94,7 +94,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4fZ-Ce-ssE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1084" y="693"/>
+            <point key="canvasLocation" x="1156" y="13"/>
         </scene>
     </scenes>
     <resources>

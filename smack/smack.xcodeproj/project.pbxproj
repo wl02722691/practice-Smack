@@ -16,6 +16,7 @@
 		69FC55B6221E554D002242A7 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FC55B4221E554D002242A7 /* SWRevealViewController.m */; };
 		69FC55BB221E57E4002242A7 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FC55BA221E57E4002242A7 /* ChatVC.swift */; };
 		69FC55BD221E57FA002242A7 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FC55BC221E57FA002242A7 /* ChannelVC.swift */; };
+		69FC55BF221E5FDF002242A7 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FC55BE221E5FDF002242A7 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		69FC55B5221E554D002242A7 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		69FC55BA221E57E4002242A7 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		69FC55BC221E57FA002242A7 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		69FC55BE221E5FDF002242A7 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		6BB33FE39B235F271BFEFCC3 /* Pods-smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smack/Pods-smack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +115,7 @@
 		69FC55B8221E57AE002242A7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				69FC55BE221E5FDF002242A7 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				69FC55BB221E57E4002242A7 /* ChatVC.swift in Sources */,
 				69FC55A3221E4FAB002242A7 /* ViewController.swift in Sources */,
+				69FC55BF221E5FDF002242A7 /* GradientView.swift in Sources */,
 				69FC55A1221E4FAB002242A7 /* AppDelegate.swift in Sources */,
 				69FC55B6221E554D002242A7 /* SWRevealViewController.m in Sources */,
 				69FC55BD221E57FA002242A7 /* ChannelVC.swift in Sources */,
