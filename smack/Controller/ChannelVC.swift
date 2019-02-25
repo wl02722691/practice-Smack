@@ -11,6 +11,8 @@ import UIKit
 class ChannelVC: UIViewController {
 
     @IBOutlet weak var loginBtn: UIButton!
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue){}
+    //用performSegue(withIdentifier: UNWIND, sender: nil)就能回到 ChannelVC
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +21,7 @@ class ChannelVC: UIViewController {
     }
     
     @IBAction func loginBtnPressed(_ sender: UIButton) {
-        performSegue(withIdentifier: To_LOGIN, sender: nil)
+        performSegue(withIdentifier: TO_LOGIN, sender: nil)
         
     }
     
